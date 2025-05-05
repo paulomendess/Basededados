@@ -12,6 +12,8 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = os.getenv('SECRET_KEY')
 
 
+
+
 def get_db_connection():
     conn = psycopg2.connect(
         dbname=os.getenv('DB_NAME'),
