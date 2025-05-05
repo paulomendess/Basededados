@@ -1,3 +1,2 @@
-flask
-psycopg2-binary
-python-dotenv
+Flask==2.2.5
+werkzeug==2.3.8
