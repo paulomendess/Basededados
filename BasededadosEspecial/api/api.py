@@ -29,10 +29,7 @@ def home():
 
 if __name__ == '__main__':
     print("Starting Flask server...")
-    print(".i0.")
-    print(".i0.")
-    print(".i0.")
-    print(".i0.")
     app.run(debug=False)
+
 
    
