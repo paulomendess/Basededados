@@ -6,7 +6,7 @@ app = Flask(__name__)
 def home():
     return 'Hello, World!'
 
-@app.route('/about')
+@app.route('/about', methods = ['post'])
 def about():
     return 'About'
 if __name__ == '__main__':
