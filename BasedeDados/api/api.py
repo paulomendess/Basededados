@@ -9,3 +9,13 @@ def home():
 @app.route('/about')
 def about():
     return 'About'
+if __name__ == '__main__':
+    print("Starting Flask server...")
+    
+
+
+    print("quero ir tomar banho")
+    app.run(debug=False)
+
+
+   
