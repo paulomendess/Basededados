@@ -29,7 +29,10 @@ def home():
 
 if __name__ == '__main__':
     print("Starting Flask server...")
-    print("ola, por favor funciona")
+    
+
+
+    print("quero ir tomar banho")
     app.run(debug=False)
 
 
